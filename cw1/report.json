@@ -1,0 +1,70 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2023-10-20T18:13:36.000653",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "4",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "4",
+          "description": "Test one",
+          "type": "SQL",
+          "filepath": "/Users/kirillarovoj/study/ordb4/cw1/./V4__Test_one.sql",
+          "executionTime": 27
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2023-10-20T18:14:19.117171",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": "4",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "4",
+          "rawVersion": "4",
+          "description": "Test one",
+          "type": "SQL",
+          "installedOnUTC": "2023-10-20T15:14:19.285455Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/Users/kirillarovoj/study/ordb4/cw1/./V4__Test_one.sql",
+          "undoFilepath": "",
+          "installedBy": "postgres",
+          "executionTime": 27
+        }
+      ],
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "allSchemasEmpty": false,
+      "timestamp": "2023-10-20T19:19:26.203584",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}
